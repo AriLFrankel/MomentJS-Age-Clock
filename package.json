@@ -1,0 +1,12 @@
+{
+  "name": "MomentJS-Age-Clock",
+  "version": "1.0.0",
+  "description": "MomentJS Activity - precise age clock",
+  "main": "index.html",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "moment-precise-range-plugin": "^1.2.1"
+  },
+  "author": "Ari Frankel (ari.l.frankel@gmail.com)",
+  "license": "MIT"
+}
