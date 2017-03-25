@@ -11,10 +11,16 @@
 <body>
   <div class="countdown"></div>
   <script type="text/javascript">
+    // convert the user's birthday to a moment object
     window.birthday = moment(prompt('What is your birthday? MM/DD/YYYY'))
+    // invoke displayAge once
     displayAge()
+    // invoke displayAge on an interval once a second
     setInterval(displayAge, 1000)
     function displayAge(){
+      // moment(window.birthday) converts the birthday value to a moment object
+      // the preciseDiff method will calculate the precise difference between its caller and its argument
+      // moment() is used to calculate a new moment object from the current time
       document.querySelector('.countdown').innerHTML = moment(window.birthday).preciseDiff(moment())
     }
   </script>
