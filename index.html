@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <title>Birthday Countdown</title>
   <link rel="stylesheet" href="style.css">
-  <!--Expose Moment.js and moment-precise-range-plugin to this file-->
+  <!--expose Moment.js to this file-->
   <script type="text/javascript" src="./node_modules/moment/moment.js"></script>
+  <!--expose Moment.js precise-range-plugin to this file-->
   <script type="text/javascript" src="./node_modules/moment-precise-range-plugin/moment-precise-range.js"></script>
 </head>
 <body>
@@ -15,7 +16,6 @@
     window.birthday = moment(prompt('What is your birthday? MM/DD/YYYY'))
     // invoke displayAge once
     displayAge()
-    // invoke displayAge on an interval once a second
     setInterval(displayAge, 1000)
     function displayAge(){
       // moment(window.birthday) converts the birthday value to a moment object
