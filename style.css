@@ -1,0 +1,12 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: purple;
+}
+
+.countdown{
+  color: yellow;
+  font-size: 50px;
+}
