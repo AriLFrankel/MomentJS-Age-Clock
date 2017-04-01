@@ -17,5 +17,6 @@ You will use MomentJS and a MomentJS plugin to make an exact age clock. Your fin
 
 ## Getting Started
 
+0. If your npm may not be uptodate, run ```npm install npm@latest -g``` to upgrade your npm
 1. ```npm install``` from the root directory
 2. You should not need to edit any files other than index.html
