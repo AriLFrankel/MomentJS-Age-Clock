@@ -2,7 +2,7 @@
 An exercise in reading the MomentJS documentation to accompany a documentation lecture
 
 ## High Level Goal for this Activity
-The goal of this activity is for you to put in to practice the principles of effectively navigating documentation that were outlined in the slides. As this is an exercise in documentation reading, please rely primarily on documentation and only secondarily on Stack Overflow
+The goal of this activity is for you to put into practice the principles of effectively navigating documentation that were outlined in the slides. As this is an exercise in documentation reading, please rely primarily on documentation and only secondarily on Stack Overflow
 
 You will use MomentJS and a MomentJS plugin to make an exact age clock. Your finished product will look something like this:
  
