@@ -13,7 +13,7 @@ You will use MomentJS and a MomentJS plugin to make an exact age clock. Your fin
 
 1. Read and understand index.html for context before diving in to documentation
     - Knowing what problem you're trying to solve will help guide you through the docs
-2. Utilize the [Moment.js](https://momentjs.com/) and [moment-precise-range plugin](https://www.npmjs.com/package/moment-precise-range) documentation. **Use Stack Overflow as a BACKUP and not a default**.
+2. Utilize the [Moment.js](https://momentjs.com/) and [moment-precise-range plugin](https://momentjs.com/docs/#/plugins/preciserange/) documentation. **Use Stack Overflow as a BACKUP and not a default**.
 
 ## Getting Started
 
